@@ -22,17 +22,22 @@ updateCount();
 
 const dialog = document.getElementById('image-dialog');
 let lastPreviewLink;
-document.querySelectorAll('[data-preview]').forEach(link => {
+document.querySelectorAll('[data-preview], [data-review-preview]').forEach(link => {
   link.addEventListener('click', event => {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || typeof dialog.showModal !== 'function') return;
     event.preventDefault();
     lastPreviewLink = link;
     const img = document.getElementById('preview-image');
     img.src = link.getAttribute('href');
-    img.alt = `${link.dataset.preview} project screenshot`;
-    document.getElementById('preview-title').textContent = link.dataset.preview;
+    const isReview = link.hasAttribute('data-review-preview');
+    const title = isReview ? link.dataset.reviewPreview : link.dataset.preview;
+    dialog.classList.toggle('review-preview', isReview);
+    img.alt = `${title} ${isReview ? 'review' : 'project'} screenshot`;
+    document.getElementById('preview-title').textContent = title;
+    dialog.querySelector('p').textContent = isReview ? 'Scroll to read the full screenshot.' : 'Scroll horizontally to explore the full workflow.';
     dialog.showModal();
     dialog.querySelector('.preview-scroll').scrollLeft = 0;
+    dialog.querySelector('.preview-scroll').scrollTop = 0;
   });
 });
 dialog.querySelector('button').addEventListener('click', () => dialog.close());
