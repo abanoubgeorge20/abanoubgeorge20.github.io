@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "projects": [
     {
       "id": "orchestrator",
@@ -127,5 +127,8 @@
       "codeUrl": ""
     }
   ],
-  "reviews": []
+  "reviews": [],
+  "profile": {
+    "image": "assets/abanoub-george.jpg"
+  }
 }
