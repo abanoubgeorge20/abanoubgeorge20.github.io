@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "projects": [
     {
       "id": "orchestrator",
@@ -126,5 +126,6 @@
       "url": "",
       "codeUrl": ""
     }
-  ]
+  ],
+  "reviews": []
 }
