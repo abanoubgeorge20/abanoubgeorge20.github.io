@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "orchestrator",
+      "title": "Marketing Command Center",
+      "description": "Coordinates specialized agents across research, strategy, content, SEO, campaigns, and reporting. A central entry point routes marketing requests through the connected workflows.",
+      "category": "strategy",
+      "image": "assets/orchestrator.png",
+      "tags": [
+        "n8n",
+        "AI orchestration"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "market-intelligence",
+      "title": "Market Intelligence Agent",
+      "description": "Combines news and social research with AI analysis for competitor insights, customer understanding, trend detection, and opportunity identification. Packages the findings into an HTML report.",
+      "category": "strategy",
+      "image": "assets/market-intelligence.png",
+      "tags": [
+        "n8n",
+        "Research",
+        "AI analysis"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "strategic-planning",
+      "title": "Strategic Planning Agent",
+      "description": "Brings market intelligence, advertising insights, and previous learnings into a planning agent that produces a structured strategy and presentation.",
+      "category": "strategy",
+      "image": "assets/strategic-planning.png",
+      "tags": [
+        "n8n",
+        "Gemini",
+        "Strategy"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "content-creation",
+      "title": "Content Creation Agent",
+      "description": "Turns a content brief into structured copy, with an optional visual-generation branch and a packaged output for download or use by the orchestrator.",
+      "category": "execution",
+      "image": "assets/content-creation.png",
+      "tags": [
+        "n8n",
+        "AI content",
+        "Visual generation"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "campaign-automation",
+      "title": "Campaign Automation Workflow",
+      "description": "Connects campaign setup with advertising and email branches, conditional routing, and approval steps to coordinate campaign actions across tools.",
+      "category": "execution",
+      "image": "assets/campaign-automation.png",
+      "tags": [
+        "n8n",
+        "Campaigns",
+        "Integrations"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "seo-agent",
+      "title": "SEO Audit Agent",
+      "description": "Collects page HTML, robots.txt, sitemap data, and mobile PageSpeed insights. Adds optional keyword research and assembles the findings into an AI-assisted SEO report.",
+      "category": "growth",
+      "image": "assets/seo-agent.png",
+      "tags": [
+        "n8n",
+        "SEO",
+        "PageSpeed"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "lead-nurturing",
+      "title": "Lead Nurturing Agent",
+      "description": "Scores and segments incoming leads, routes personalized WhatsApp or email outreach, and connects CRM updates with timed email follow-ups and manual review.",
+      "category": "growth",
+      "image": "assets/lead-nurturing.png",
+      "tags": [
+        "n8n",
+        "Gemini",
+        "CRM automation"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "social-media",
+      "title": "Social Media Agent",
+      "description": "Connects draft generation and approval with social publishing, comment collection, and an approval flow for AI-assisted replies.",
+      "category": "execution",
+      "image": "assets/social-media.png",
+      "tags": [
+        "n8n",
+        "Social media",
+        "Approvals"
+      ],
+      "url": "",
+      "codeUrl": ""
+    },
+    {
+      "id": "marketing-performance",
+      "title": "Marketing Performance Agent",
+      "description": "Combines analytics, advertising, and CRM inputs in a scheduled workflow to compute KPIs, email an AI-assisted performance report, and feed learnings back into planning.",
+      "category": "growth",
+      "image": "assets/marketing-performance.png",
+      "tags": [
+        "n8n",
+        "Analytics",
+        "Gemini"
+      ],
+      "url": "",
+      "codeUrl": ""
+    }
+  ]
+}

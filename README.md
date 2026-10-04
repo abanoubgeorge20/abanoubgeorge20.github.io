@@ -2,6 +2,14 @@
 
 An English portfolio for Abanoub George Youssef Youssef, covering AI, AI automation, web development, and Shopify development.
 
+Live website: https://abanoubgeorge20.github.io/
+
+## Project management
+
+The owner's local Portfolio Studio dashboard adds, edits, deletes, and reorders projects, uploads images, and publishes changes through their GitHub CLI login. Credentials are never included in this repository. Open `Open-Portfolio-Admin.cmd` on the owner's computer to launch the dashboard.
+
+`projects.json` contains the collection. Publishing also updates the generated gallery between the project markers in `index.html`, so projects remain visible without JavaScript. Keep both files in sync for manual changes.
+
 ## Preview
 
 Open index.html in a browser. No installation or build step is required. Google Fonts uses an internet connection; system fonts provide a fallback.
@@ -29,6 +37,6 @@ Upload this folder's contents to the root of a dedicated GitHub repository. The 
 https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 Suggested repository name: abanoubgeorge20.github.io
-This would give the site address https://abanoubgeorge20.github.io/ once successfully published. No deployment has been performed by preparing these files.
+The site is published at https://abanoubgeorge20.github.io/.
 
 Upload only this portfolio folder, not the surrounding education-platform project.

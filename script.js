@@ -4,7 +4,8 @@ const cards = [...document.querySelectorAll('.project')];
 const filters = document.querySelector('.filters');
 filters.hidden = false;
 function updateCount() {
-  document.getElementById('project-count').textContent = `${cards.filter(card => !card.hidden).length} workflows`;
+  const count = cards.filter(card => !card.hidden).length;
+  document.getElementById('project-count').textContent = count ? `${count} ${count === 1 ? 'project' : 'projects'}` : 'No projects in this category yet.';
 }
 filters.querySelectorAll('button').forEach(button => {
   button.addEventListener('click', () => {
@@ -28,7 +29,7 @@ document.querySelectorAll('[data-preview]').forEach(link => {
     lastPreviewLink = link;
     const img = document.getElementById('preview-image');
     img.src = link.getAttribute('href');
-    img.alt = `${link.dataset.preview} workflow screenshot`;
+    img.alt = `${link.dataset.preview} project screenshot`;
     document.getElementById('preview-title').textContent = link.dataset.preview;
     dialog.showModal();
     dialog.querySelector('.preview-scroll').scrollLeft = 0;
