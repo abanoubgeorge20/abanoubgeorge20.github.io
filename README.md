@@ -1,2 +1,34 @@
-# abanoubgeorge20.github.io
-Abanoub George — AI, automation, web and Shopify development portfolio.
+﻿# Abanoub George — Personal Portfolio
+
+An English portfolio for Abanoub George Youssef Youssef, covering AI, AI automation, web development, and Shopify development.
+
+## Preview
+
+Open index.html in a browser. No installation or build step is required. Google Fonts uses an internet connection; system fonts provide a fallback.
+
+## Features
+
+- Responsive desktop and mobile layout.
+- Nine n8n workflow projects, with original screenshots and category filters.
+- Screenshot previews with Escape-to-close and keyboard focus restoration.
+- Personal photograph and direct GitHub/LinkedIn links.
+- All content and project image links remain accessible without JavaScript.
+
+## Files
+
+- index.html: biography, project descriptions, and social links.
+- styles.css and personal.css: layout and styling.
+- script.js: filters, image preview, and current year.
+- assets/: supplied portrait and project screenshots.
+
+Project descriptions summarize the visible workflow structure. They do not claim measured business results or verified production execution. The duplicate market-intelligence screenshot is represented once.
+
+## GitHub Pages
+
+Upload this folder's contents to the root of a dedicated GitHub repository. The index.html file must be at the publishing root. Configure GitHub Pages for that repository using the official instructions:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+Suggested repository name: abanoubgeorge20.github.io
+This would give the site address https://abanoubgeorge20.github.io/ once successfully published. No deployment has been performed by preparing these files.
+
+Upload only this portfolio folder, not the surrounding education-platform project.
