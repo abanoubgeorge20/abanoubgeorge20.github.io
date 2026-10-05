@@ -6,6 +6,10 @@ Live website: https://abanoubgeorge20.github.io/
 
 ## Project management
 
+The repository includes the local dashboard source in `portfolio-admin/`. On Windows, download and extract the repository, install Node.js 20+ and GitHub CLI, sign in with `gh auth login`, then open `Open-Portfolio-Admin.cmd`. Create your local password on first launch. See `portfolio-admin/README.md` for setup and usage.
+
+The dashboard also manages client reviews with optional screenshots from freelancing platforms, and lets the owner replace their profile photo. Save changes to a draft, then publish them together. Local password files are excluded from the repository. The administration server runs on your computer, not on GitHub Pages.
+
 The owner's local Portfolio Studio dashboard adds, edits, deletes, and reorders projects, uploads images, and publishes changes through their GitHub CLI login. Credentials are never included in this repository. Open `Open-Portfolio-Admin.cmd` on the owner's computer to launch the dashboard.
 
 `projects.json` contains the collection. Publishing also updates the generated gallery between the project markers in `index.html`, so projects remain visible without JavaScript. Keep both files in sync for manual changes.
